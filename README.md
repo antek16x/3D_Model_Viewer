@@ -24,5 +24,5 @@ You can fork this project on GitHub, download it, and then open it as a project 
 
 The structure of the database I created looks as follows:
 
-<img align="center" src="https://github.com/antek16x/3D_Model_Viewer/blob/master/3D_Model_Viewer_Database_1.png" width="220">
+<img align="center" src="https://github.com/antek16x/3D_Model_Viewer/blob/master/3D_Model_Viewer_Database_1.png" width="1000">
 
