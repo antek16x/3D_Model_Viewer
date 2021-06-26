@@ -1,6 +1,6 @@
 # 3D_Model_Viewer
 
-The purpose of this application for Android devices is to use AR Scene Viewer to view 3D objects that are loaded into the application from the SQLite database.
+**The purpose of this application for Android devices is to use AR Scene Viewer to view 3D objects that are loaded into the application from the SQLite database.**
 
 <img align="center" src="https://github.com/antek16x/3D_Model_Viewer/blob/master/3D_Model_Viewer_1.png" width="220"> <img align="center" src="https://github.com/antek16x/3D_Model_Viewer/blob/master/3D_Model_Viewer_2.png" width="220"> <img align="center" src="https://github.com/antek16x/3D_Model_Viewer/blob/master/3D_Model_Viewer_3.png" width="220">
 
@@ -33,4 +33,5 @@ and the `MODELS` table that stores the data about the models is as follows:
 As you can see, this table has four columns: the first is the object id, the second is the name that is displayed in the list, the third column is the URL of the object that I took from [this page](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0), and the fourth column stores the model image in the bait array format.
 
 To convert the bait array to an image I will use the `getImage(byte[] image)` method from the [ModelAdapter](https://github.com/antek16x/3D_Model_Viewer/blob/master/app/src/main/java/com/example/a3dmodelviewer/ModelAdapter.java) class and methods from the `Base64` class.
-You can freely extend or reduce the database.
+
+**You can freely extend or reduce the database.**
