@@ -13,3 +13,11 @@ _____
 The application is quite easy to use: on the first page we see a menu in which we have a choice: loading models or exiting the application. After selecting the loading option, we will be transferred to the next activity where we will see a `ListView` which contains a list of models and their thumbnails (generated from a bait array), which are loaded from the SQLite database called `3DModels`. This database is in the `assets` folder. The [DatabaseHelper](https://github.com/antek16x/3D_Model_Viewer/blob/master/app/src/main/java/com/example/a3dmodelviewer/DatabaseHelper.java) class is responsible for the operation on the database.
 
 After selecting and clicking on the model selected from the list, we will be redirected to SceneViewer, to which the URL of the selected model will be sent from the database.
+
+## Setup:
+
+### Downloading to Android Studio
+
+You can fork this project on GitHub, download it, and then open it as a project in Android Studio. Once you have done so, it can be run on your Android device.
+
+
