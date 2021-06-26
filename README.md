@@ -20,4 +20,7 @@ After selecting and clicking on the model selected from the list, we will be red
 
 You can fork this project on GitHub, download it, and then open it as a project in Android Studio. Once you have done so, it can be run on your Android device.
 
+### Database
+
+The structure of the database I created looks as follows:
 
